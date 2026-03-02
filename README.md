@@ -1,2 +1,1 @@
-# conner-lavineway.github.io
-Github Pages Testing
+# Resume Hosting With Github Pages and Pelican
