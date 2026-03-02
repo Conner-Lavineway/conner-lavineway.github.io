@@ -1,8 +1,10 @@
 AUTHOR = 'Conner Lavineway'
 SITENAME = 'Conner Lavineways Portfolio'
 SITEURL = ""
-THEME = "Themes/pelican-mediumfox"
+THEME = "Themes/Flex"
 
+THEME_COLOR_AUTO_DETECT_BROWSER_PREFERENCE = True
+THEME_COLOR_ENABLE_USER_OVERRIDE = True
 
 TIMEZONE = 'America/Winnipeg'
 
@@ -24,7 +26,10 @@ LINKS = (
 SOCIAL = (
 )
 
-DISPLAY_PAGES_ON_MENU = False
+STATIC_PATHS = ['images']  # Tell Pelican to copy the images directory
+SITELOGO = '/images/Profile-Pic.jpg'
+
+DISPLAY_PAGES_ON_MENU = True
 
 DEFAULT_PAGINATION = 10
 DELETE_OUTPUT_DIRECTORY = True
