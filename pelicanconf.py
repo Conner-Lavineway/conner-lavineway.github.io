@@ -1,7 +1,7 @@
 AUTHOR = 'Conner Lavineway'
 SITENAME = 'Conner Lavineways Portfolio'
 SITEURL = ""
-##THEME = "Themes/pelican-mediumfox"
+THEME = "Themes/pelican-mediumfox"
 
 
 TIMEZONE = 'America/Winnipeg'
