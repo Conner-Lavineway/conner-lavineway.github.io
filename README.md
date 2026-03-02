@@ -12,8 +12,13 @@ This is a general purpose walk through of how to start hosting a static site gen
 ### Some Assumptions
 I run Linux (Specifically Ubuntu), I assume you are running this as well, a different OS may use different commands
 ## Instructions:
-1. Install pelican:
-	To install Pelican first you need a virtual environment done with:
+### Setup:
+1. Set up and activate a python virtual environment:  
 ```
 python -m venv venv
+source venv/bin/activate
+```
+2. Install Pelican and Markdown:
+```
+python -m pip install "pelican[markdown]"
 ```
