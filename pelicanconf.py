@@ -1,5 +1,5 @@
 AUTHOR = 'Conner Lavineway'
-SITENAME = '2600 Project'
+SITENAME = 'Conner Lavineways Portfolio'
 SITEURL = ""
 ##THEME = "Themes/pelican-mediumfox"
 
