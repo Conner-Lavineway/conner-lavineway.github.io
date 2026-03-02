@@ -13,7 +13,7 @@ This is a general purpose walk through of how to start hosting a static site gen
 I run Linux (Specifically Ubuntu), I assume you are running this as well, a different OS may use different commands
 ## Instructions:
 1. Install pelican:
-	>To install Pelican first you need a virtual environment done with:
+	To install Pelican first you need a virtual environment done with:
 ```
 python -m venv venv
 ```
