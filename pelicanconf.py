@@ -15,7 +15,7 @@ USE_FOLDER_AS_CATEGORY = True
 MAIN_MENU = True
 
 STATIC_PATHS = ['images']  # Tell Pelican to copy the images directory
-SITELOGO = 'images/Profile-Pic.jpg'
+SITELOGO = '/images/Logo.jpg'
 
 DISPLAY_PAGES_ON_MENU = False
 
