@@ -1,7 +1,7 @@
 AUTHOR = 'Conner Lavineway'
 SITENAME = 'Conner Lavineways Portfolio'
 SITEURL = ""
-THEME = "Themes/Flex"
+THEME = "Flex"
 
 THEME_COLOR_AUTO_DETECT_BROWSER_PREFERENCE = True
 THEME_COLOR_ENABLE_USER_OVERRIDE = True
