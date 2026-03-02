@@ -79,4 +79,3 @@ Campers age vary from 6-14
 
 **Intermediate First Aid, CPR-C & AED Certification, Held since March 2019**  
 *August 2026 to August 2028*  
-
