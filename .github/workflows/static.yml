@@ -42,6 +42,9 @@ jobs:
           git clone ${{ secrets.THEME_REPO }}
           echo "Install pelican theme"
           pelican-themes --install ${{ secrets.THEME_NAME }}
+        env:
+          PELICAN_THEME_NAME: ${{ secrets.PELICAN_THEME_NAME }}
+          PELICAN_THEME_REPO: ${{ secrets.PELICAN_THEME_REPO }}
 
       - name: Build with Pelican
         run: make publish
