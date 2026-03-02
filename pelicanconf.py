@@ -1,7 +1,7 @@
 AUTHOR = 'Conner Lavineway'
 SITENAME = 'Conner Lavineways Portfolio'
 SITEURL = ""
-##THEME = "Flex"
+THEME = "Flex"
 
 THEME_COLOR_AUTO_DETECT_BROWSER_PREFERENCE = True
 THEME_COLOR_ENABLE_USER_OVERRIDE = True
@@ -27,7 +27,7 @@ SOCIAL = (
 )
 
 STATIC_PATHS = ['images']  # Tell Pelican to copy the images directory
-SITELOGO = '/images/Profile-Pic.jpg'
+SITELOGO = 'images/Profile-Pic.jpg'
 
 DISPLAY_PAGES_ON_MENU = True
 
