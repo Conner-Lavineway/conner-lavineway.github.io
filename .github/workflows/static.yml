@@ -36,7 +36,12 @@ jobs:
       - name: Install dependencies
         run: |
           python -m pip install --upgrade pip
+          echo "Install dependencies"
           pip install -r requirements.txt
+          echo "Clone repo with pelican theme"
+          git clone ${{ secrets.THEME_REPO }}
+          echo "Install pelican theme"
+          pelican-themes --install ${{ secrets.THEME_NAME }}
 
       - name: Build with Pelican
         run: make publish
