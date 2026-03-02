@@ -11,25 +11,13 @@ TIMEZONE = 'America/Winnipeg'
 DEFAULT_LANG = 'en'
 
 # Feed generation is usually not desired when developing
-FEED_ALL_ATOM = None
-CATEGORY_FEED_ATOM = None
-TRANSLATION_FEED_ATOM = None
-AUTHOR_FEED_ATOM = None
-AUTHOR_FEED_RSS = None
+USE_FOLDER_AS_CATEGORY = True
 MAIN_MENU = True
-
-# Blogroll
-LINKS = (
-)
-
-# Social widget
-SOCIAL = (
-)
 
 STATIC_PATHS = ['images']  # Tell Pelican to copy the images directory
 SITELOGO = 'images/Profile-Pic.jpg'
 
-DISPLAY_PAGES_ON_MENU = True
+DISPLAY_PAGES_ON_MENU = False
 
 DEFAULT_PAGINATION = 10
 DELETE_OUTPUT_DIRECTORY = True
