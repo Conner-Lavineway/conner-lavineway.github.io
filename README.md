@@ -24,3 +24,16 @@ source venv/bin/activate
 ```
 python -m pip install "pelican[markdown]"
 ```
+### Site Generation
+After installing Pelican you need a project to work on, to start create a folder that you'll work out of
+```
+mkdir ~/projects/mysite
+cd ~/projects/mysite
+```
+While still in your virtual environment run the `pelican-quickstart` command
+```
+pelican-quickstart
+```
+This will guide you through setting up a Pelican site
+![[Readme\ Images/quickstart.png]]
+
