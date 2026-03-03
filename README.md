@@ -11,8 +11,8 @@ This is a general purpose walk through of how to start hosting a static site gen
 
 ### Some Assumptions
 I run Linux (Specifically Ubuntu), I assume you are running this as well, a different OS may use different commands
-[A guide for Windows](https://docs.pelicanplatform.org/install/windows)
-[A guide for MacOS](https://docs.pelicanplatform.org/install/macos)
+[A guide for Windows](https://docs.pelicanplatform.org/install/windows)  
+[A guide for MacOS](https://docs.pelicanplatform.org/install/macos)  
 ## Instructions:
 ### Setup:
 1. Set up and activate a python virtual environment:  
