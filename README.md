@@ -34,6 +34,7 @@ While still in your virtual environment run the `pelican-quickstart` command
 ```
 pelican-quickstart
 ```
-This will guide you through setting up a Pelican site
-![Readme\ Images/quickstart.png]
+This will guide you through setting up a Pelican site  
+![An example of the pelican-quickstart command dialouge](Readme Images/quickstart.png)
+
 
