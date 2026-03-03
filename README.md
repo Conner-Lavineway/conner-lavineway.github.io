@@ -10,7 +10,7 @@ This is a general purpose walk through of how to start hosting a static site gen
 - An Internet Connection (If you're reading this congratulations! You likely have this)
 
 ### Some Assumptions
-I run Linux (Specifically Ubuntu), I assume you are running this as well, a different OS may use different commands
+I run Linux (Specifically Ubuntu), I assume you are running this as well, a different OS may use different commands  
 [A guide for Windows](https://docs.pelicanplatform.org/install/windows)  
 [A guide for MacOS](https://docs.pelicanplatform.org/install/macos)  
 ## Instructions:
