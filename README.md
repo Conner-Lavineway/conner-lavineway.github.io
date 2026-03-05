@@ -37,3 +37,15 @@ pelican-quickstart
 This will guide you through setting up a Pelican site  
 ![An example of the pelican-quickstart command dialog](Readme-Images/quickstart.png)
 This will create a set of folders for you to use to automatically generate a static site compatible with GitHub Pages.  
+
+To generate a site using Pelican ensure your virtual environment is active and run the make files custom commands:
+```
+source venv/bin/activate #Activate your virtual envoiroment
+pelican content #generate your site
+pelican --listen #preview your site
+```
+
+This will generate a local preview of your site to do this in one command use:
+```
+pelican -r -l 
+```
