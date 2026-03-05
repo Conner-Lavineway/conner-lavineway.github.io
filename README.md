@@ -14,7 +14,7 @@ I run Linux (Specifically Ubuntu), I assume you are running this as well, a diff
 [A guide for Windows](https://docs.pelicanplatform.org/install/windows)  
 [A guide for MacOS](https://docs.pelicanplatform.org/install/macos)  
 ## Instructions:
-### Setup:
+### 1 Setup:
 1. Set up and activate a python virtual environment:  
 ```
 python -m venv venv
@@ -24,7 +24,7 @@ source venv/bin/activate
 ```
 python -m pip install "pelican[markdown]"
 ```
-### Site Generation
+### 2 Site Generation
 After installing Pelican you need a project to work on, to start create a folder that you'll work out of
 ```
 mkdir ~/projects/mysite
@@ -45,7 +45,8 @@ pelican content #generate your site
 pelican --listen #preview your site
 ```
 
-This will generate a local preview of your site to do this in one command use:
+This will generate a local preview of your site, to do this in one command use:
 ```
 pelican -r -l 
 ```
+
