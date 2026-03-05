@@ -65,7 +65,9 @@ Author:
 ```
 For pelican to recognize your page it must have a title.
 ### 4. Hosting through GitHub Pages
-To host a site using GitHub Pages first make a repository named `username.github.io` 
+1. To host a site using GitHub Pages first make a repository named `username.github.io`
+2. Go to the repository settings and find the 'Pages' sub-tab ![Where to find GitHub Pages tab](Readme-Images/github-settings.png)
+3. 
 
 
 
