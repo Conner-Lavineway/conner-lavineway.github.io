@@ -53,5 +53,24 @@ pelican -r -l
 ### 3. Page creation
 To create pages simply write a regular markdown file in your preferred markdown editor and save them to the 'content' folder of your pelican directory. To add images to your pages make a images folder in the content folder and reference them in the markdown pages using:
 `![Image Description](path/to/image)`
+
+While making your page you can add metadata to it by adding to the top of the file.
+```
+Title:   
+Date: 
+Category:   
+Tags:   
+Slug:   
+Author: 
+```
+For pelican to recognize your page it must have a title.
 ### 4. Hosting through GitHub Pages
-To host a site using GitHub Pages first make a repository named `username.github.io`
+To host a site using GitHub Pages first make a repository named `username.github.io` 
+
+
+
+## Credits:
+
+Proof readers:
+Izzy Elskamp
+Christian Javen Samson
