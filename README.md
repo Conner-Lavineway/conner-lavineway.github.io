@@ -14,17 +14,17 @@ I run Linux (Specifically Ubuntu), I assume you are running this as well, a diff
 [A guide for Windows](https://docs.pelicanplatform.org/install/windows)  
 [A guide for MacOS](https://docs.pelicanplatform.org/install/macos)  
 ## Instructions:
-### 1 Setup:
-1. Set up and activate a python virtual environment:  
+### 1. Setup:
+Set up and activate a python virtual environment:  
 ```
 python -m venv venv
 source venv/bin/activate
 ```
-2. Install Pelican and Markdown:
+Install Pelican and Markdown:
 ```
 python -m pip install "pelican[markdown]"
 ```
-### 2 Site Generation
+### 2. Site Generation
 After installing Pelican you need a project to work on, to start create a folder that you'll work out of
 ```
 mkdir ~/projects/mysite
@@ -50,3 +50,8 @@ This will generate a local preview of your site, to do this in one command use:
 pelican -r -l 
 ```
 
+### 3. Page creation
+To create pages simply write a regular markdown file in your preferred markdown editor and save them to the 'content' folder of your pelican directory. To add images to your pages make a images folder in the content folder and reference them in the markdown pages using:
+`![Image Description](path/to/image)`
+### 4. Hosting through GitHub Pages
+To host a site using GitHub Pages first make a repository named `username.github.io`
