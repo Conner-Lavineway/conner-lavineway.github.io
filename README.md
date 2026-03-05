@@ -36,3 +36,4 @@ pelican-quickstart
 ```
 This will guide you through setting up a Pelican site  
 ![An example of the pelican-quickstart command dialog](Readme-Images/quickstart.png)
+This will create a set of folders for you to use to automatically generate a static site compatible with GitHub Pages.  
